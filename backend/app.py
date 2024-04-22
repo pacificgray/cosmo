@@ -13,8 +13,8 @@ bcrypt = Bcrypt(app)
 app.config['SECRET_KEY'] = os.urandom(24)
 
 # Configuration
-app.config['UPLOAD_FOLDER'] = "C:/Users/trung/Documents/Project/final-project-cloud/backend/uploads" # Specify the directory to store uploaded files
-DATABASE_URL = "postgresql://postgres:123456@localhost/postgres"
+app.config['UPLOAD_FOLDER'] = "/Users/pacific/Downloads/delete_later_plz" # Specify the directory to store uploaded files
+DATABASE_URL = "postgresql://postgres:1992@localhost/postgres"
 
 try:
     conn = connect(DATABASE_URL)
